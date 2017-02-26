@@ -1,0 +1,23 @@
+THIS is description how to set/reset Access point.
+
+1. Important programs
+	rcconf - set/reset services on reboot
+	example : sudo rcconf -off hostapd 
+
+
+2. Important files 
+	/etc/network/interfaces
+	/etc/sysctl.conf
+	/etc/dhcpcd.conf
+	/etc/default/hostapd
+
+3. Procedure
+	MAKE AP manual
+
+	1) start hostapd and dnsmasq  with rcconf
+	2) change /etc/network/interfaces
+	3) change /etc/sysctl.conf
+	4) change /etc/dhcpcd.conf
+	5) change/etc/default/hostapd
+
+
